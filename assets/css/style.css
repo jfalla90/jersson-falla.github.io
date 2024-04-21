@@ -9,27 +9,21 @@
 
 @media screen and (min-width: 226px) and (max-width: 768px) {
     .contact-header{
-        height: 3.5em;
+        height: 6em;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
         background-color: hsla(0, 0%, 50%, 0.15);
-        padding: 5px;
+        align-items: center;
+        text-align: center;
     }
 
     .phone-number {
-        font-weight: 800;
-        margin-left: 5px;
-        margin-top: 4px;
+        font-weight: 600;
     }
     
     .redes-header{
-        font-size: 1em;
+        font-size: 1.2em;
         word-spacing: 5px;
-        margin-top: 2px;
-        margin-bottom: 3px;
-        margin-left: 5px;
-        margin-right: 5px;
     }
 
     .redes-header .fa-whatsapp:hover {
@@ -55,7 +49,7 @@
         margin-left: 50px;
     }
     
-    .img2{
+    .img-cards{
         width: 15em;
         height: 12em;
         margin-bottom: 12px;
@@ -63,6 +57,11 @@
 
     .descripcion {
         border-bottom: 1px solid hsla(0, 0%, 50%, 0.15);
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-left: 0.5em;
     }
 
     .imagendeparrafo {
@@ -75,7 +74,7 @@
     }
     .parrafo{
         border: 1px solid hsla(0, 0%, 50%, 0.15);
-        width: 20em;
+        width: 15em;
         border-radius: 25px;
         margin-bottom: 5px;
         padding: 10px;
@@ -86,35 +85,35 @@
         cursor: pointer;
     }
 
+    .texto{
+        text-align: justify;
+    }
+
     .parrafo:hover{
         box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
     }
 
     .cards {
         display:flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
 
     .card1{
         width: 15em;
         margin-top: 5px;
         margin-bottom: 10px;
-        margin-left: 10px;
-        display: flex;
     }
     .card2{
         width: 15em;
         margin-top: 5px;
         margin-bottom: 10px;
-        margin-left: 10px;
-        display: flex;
     }
     .card3{
         width: 15em;
         margin-top: 5px;
         margin-bottom: 10px;
-        margin-left: 10px;
-        display: flex;
     }
     
     article {
@@ -151,6 +150,12 @@
         margin: 5px;
     }
 
+    .certificados {
+        text-align: center;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
     footer {
         background-color: hsla(0, 0%, 50%, 0.15);
         border-top: 1px solid hsla(0, 0%, 0%, 0.05);
@@ -158,28 +163,15 @@
         margin-top: 10px;
     }
 
-    .menu-footer ul {
-        margin-top: 20px;
-        list-style-type:none;
-        display: flex;
-        flex-direction: column;
- 
-    }
-
-    .menu-footer li a{
-        text-decoration: none;
-        color: hsla(0, 0%, 0%, 0.7);
-        font-weight: 500;
-        margin-bottom: 20px;
-        border-spacing: 2px ;
-    }
-    .logofooter img{
-        width: 150px;
-    }
-    
     .footer {
         display: flex;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .logofooter img{
+        width: 150px;
+        margin-left: 1.2em;
     }
     .redes {
         display: flex;
@@ -188,6 +180,74 @@
         align-items: flex-end;
         letter-spacing: 10px;
         font-size: 20px;
+    }    
+    .derechos {
+        text-align: center;
+    }
+
+    .about-me{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+
+    .skills{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .skills ul{
+        list-style: none;
+    }
+
+    .menu-footer ul {
+        margin-bottom: 10px;
+        list-style: none;
+    }
+
+    .menu-footer li a{
+        text-decoration: none;
+        color: hsla(0, 0%, 0%, 0.7);
+        margin-bottom: 20px;
+    }
+
+    h4{
+        font-weight: 900;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        letter-spacing: 10px;
+        font-size: 30px;
+    }
+
+    .redes .fa-mobile-screen-button:hover{
+        color:#000000;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+    .redes .fa-whatsapp:hover {
+        color:#25D366;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+    .redes .fa-linkedin-in:hover{
+        color:#0072b1;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+    .derechos {
+        background-color: #0072b1;
+        text-align: center;
+        font-weight: bold;
     }
     .subir {
         height: 25px;
@@ -205,9 +265,6 @@
         box-shadow: 0px 0px 5px 5px #fff;
     }
 
-    .derechos {
-        text-align: center;
-    }
     .subir:hover {
         height: 35px;
         width: 35px;
@@ -224,7 +281,29 @@
         color: hsla(0, 0%, 0%, 0.8);
         box-shadow: 0px 0px 5px 5px #fff;
     }
+
+    /*inicio de Css para formación-html versión mobile*/
+
+    .cards-estudios {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
+
+    article h5{
+        margin: 1rem;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+
+    article p {
+        margin: 1rem;
+    }
+
+
+}
 
 @media screen and (min-width: 769px) and (max-width: 1500px) {
         
@@ -273,7 +352,7 @@
     .imglogo{
         width: 5em;
     }
-    .img2{
+    .img-cards{
         width: 18em;
         height: 13.55em;
         margin-bottom: 1em;
@@ -296,7 +375,7 @@
     }
 
     .imagendeparrafo {
-        background-image: url('../img/FOTO\ JERSSON.png');
+        background-image: url('../img/FOTO-JERSSON.png');
         background-size: contain;
         background-repeat: no-repeat;
         background-attachment:local;
@@ -321,7 +400,9 @@
         padding: 0.6rem;
         cursor: pointer;
     }
-
+    .texto {
+        text-align: justify;
+    }
     .parrafo:hover{
         box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
     }
@@ -331,7 +412,6 @@
         flex-direction: row;
         justify-content: space-evenly;
         flex-wrap: wrap;
-
     }
 
     .card1{
@@ -420,6 +500,7 @@
         border-radius: 0.5rem;
         padding: 0.6rem;
         cursor: pointer;
+        text-align: justify;
     }
 
     .skills{
@@ -438,7 +519,7 @@
 
     .menu-footer {
         border: 1px solid hsla(0, 0%, 50%, 0.15);
-        width: 12%;
+        width: 20%;
         height: 40%;
         border-radius: 25px;
         margin-top: 10px;
