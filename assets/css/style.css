@@ -8,13 +8,86 @@
 }
 
 @media screen and (min-width: 226px) and (max-width: 768px) {
+    .contact-header{
+        height: 3.5em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: hsla(0, 0%, 50%, 0.15);
+        padding: 5px;
+    }
+
+    .phone-number {
+        font-weight: 800;
+        margin-left: 5px;
+        margin-top: 4px;
+    }
+    
+    .redes-header{
+        font-size: 1em;
+        word-spacing: 5px;
+        margin-top: 2px;
+        margin-bottom: 3px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .redes-header .fa-whatsapp:hover {
+        color:#25D366;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+    .redes-header .fa-linkedin-in:hover{
+        color:#0072b1;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+    h1 {
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
     .imglogo{
         width: 5em;
+        margin-left: 50px;
     }
     
     .img2{
         width: 15em;
         height: 12em;
+        margin-bottom: 12px;
+    }
+
+    .descripcion {
+        border-bottom: 1px solid hsla(0, 0%, 50%, 0.15);
+    }
+
+    .imagendeparrafo {
+        background-image: url('../img/FOTO\ JERSSON.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment:local;
+        width: 75%;
+        height: 260px;
+    }
+    .parrafo{
+        border: 1px solid hsla(0, 0%, 50%, 0.15);
+        width: 20em;
+        border-radius: 25px;
+        margin-bottom: 5px;
+        padding: 10px;
+        transition: box-shadow 0.3s ease;
+        background-color: #fff;
+        border-radius: 0.5rem;
+        padding: 0.6rem;
+        cursor: pointer;
+    }
+
+    .parrafo:hover{
+        box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
     }
 
     .cards {
@@ -68,10 +141,21 @@
         margin: 1rem;
     }
 
+    .link {
+        font-weight: 800;
+        text-decoration: none;
+        color: black;
+        background-color: hsla(0, 0%, 50%, 0.15);
+        border-radius: 50px;
+        padding: 5px;
+        margin: 5px;
+    }
+
     footer {
         background-color: hsla(0, 0%, 50%, 0.15);
         border-top: 1px solid hsla(0, 0%, 0%, 0.05);
         padding: 0.2em;
+        margin-top: 10px;
     }
 
     .menu-footer ul {
@@ -228,7 +312,8 @@
         width: 50%;
         height: 40%;
         border-radius: 25px;
-        margin-top: 50px;
+        margin-top: 30px;
+        margin-bottom: 20px;
         padding: 10px;
         transition: box-shadow 0.3s ease;
         background-color: #fff;
