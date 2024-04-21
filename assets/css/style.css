@@ -153,6 +153,12 @@
         padding: 5px;
     }
 
+    h1 {
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
     .phone-number {
         font-weight: 800;
         margin-left: 5px;
@@ -171,13 +177,13 @@
     .redes-header .fa-whatsapp:hover {
         color:#25D366;
         font-weight: bold;
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     .redes-header .fa-linkedin-in:hover{
         color:#0072b1;
         font-weight: bold;
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     .imglogo{
@@ -187,6 +193,52 @@
         width: 18em;
         height: 13.55em;
         margin-bottom: 1em;
+    }
+
+    .nav-link:hover{
+        transition: box-shadow 0.3s ease;
+        box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+        background-color: #fff;
+        border-radius: 0.5rem;
+        padding: 0.6rem;
+        cursor: pointer;
+    }
+
+    .descripcion {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border-bottom: 1px solid hsla(0, 0%, 50%, 0.15);
+    }
+
+    .imagendeparrafo {
+        background-image: url('../img/FOTO\ JERSSON.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment:local;
+        background-position: center;
+        width: 25%;
+        height: 300px;
+        margin-bottom: 15px;
+
+    }
+    
+    .parrafo{
+        border: 1px solid hsla(0, 0%, 50%, 0.15);
+        width: 50%;
+        height: 40%;
+        border-radius: 25px;
+        margin-top: 50px;
+        padding: 10px;
+        transition: box-shadow 0.3s ease;
+        background-color: #fff;
+        border-radius: 0.5rem;
+        padding: 0.6rem;
+        cursor: pointer;
+    }
+
+    .parrafo:hover{
+        box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
     }
 
     .cards {
@@ -249,10 +301,19 @@
         margin: 1em;
     }
 
+    .certificados{
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
     footer {
         background-color: hsla(0, 0%, 50%, 0.15);
         border-top: 1px solid hsla(0, 0%, 0%, 0.05);
         padding: 0.2em;
+        margin-top: 2em;
     }
     .logofooter img{
         width: 150px;
@@ -263,12 +324,55 @@
         justify-content: space-evenly;
     }
 
+    .about-me{
+        border: 1px solid hsla(0, 0%, 50%, 0.1);
+        width: 35%;
+        border-radius: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+        transition: box-shadow 0.3s ease;
+        border-radius: 0.5rem;
+        padding: 0.6rem;
+        cursor: pointer;
+    }
+
+    .skills{
+        border: 1px solid hsla(0, 0%, 50%, 0.15);
+        width: 20%;
+        height: 35%;
+        border-radius: 25px;
+        margin-top: 10px;
+        padding: 10px;
+        transition: box-shadow 0.3s ease;
+        border-radius: 0.5rem;
+        padding: 0.6rem;
+        cursor: pointer;
+
+    }
+
+    .menu-footer {
+        border: 1px solid hsla(0, 0%, 50%, 0.15);
+        width: 12%;
+        height: 40%;
+        border-radius: 25px;
+        margin-top: 10px;
+        padding: 10px;
+        transition: box-shadow 0.3s ease;
+        border-radius: 0.5rem;
+        padding: 0.6rem;
+        cursor: pointer; 
+    }
+
     .menu-footer ul {
         margin-top: 20px;
-        list-style-type:none;
         display: flex;
         flex-direction: column;
 
+    }
+
+    h4{
+        font-weight: bold;
     }
 
     .menu-footer li a{
@@ -287,8 +391,27 @@
         font-size: 30px;
     }
 
+    .redes .fa-mobile-screen-button:hover{
+        color:#000000;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+    .redes .fa-whatsapp:hover {
+        color:#25D366;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+    .redes .fa-linkedin-in:hover{
+        color:#0072b1;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
     .derechos {
         text-align: center;
+        font-weight: bold;
     }
     .subir {
         height: 25px;
