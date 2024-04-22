@@ -284,24 +284,70 @@
 
     /*inicio de Css para formación-html versión mobile*/
 
-    .cards-estudios {
+    .cards {
         display:flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-evenly;
     }
+    
+    .cards-estudios {
+        transition: box-shadow 0.3s ease;
+        border: 0.5px solid hsla(0, 0%, 50%, 0.15);
+        background-color: #fff;
+        cursor: pointer;
+        width: 13em;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
 
-    article h5{
+    .cards-estudios:hover {
+        box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    }
+
+
+    .cards-estudios h5{
+        background-color: hsla(201, 100%, 35%, 0.5);
         margin: 1rem;
         text-align: center;
         text-transform: uppercase;
         text-decoration: underline;
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 5px;
     }
 
-    article p {
+    .cards-estudios p {
         margin: 1rem;
+        text-align: justify;
     }
 
+    article .text-tfooter {
+        background-color: hsla(106, 75%, 66%, 0.938);
+        padding: 5px;
+        border-radius: 5px;
+        text-align:center;
+        font-weight: bold;
+    }
+
+    .text-tfooter1 {
+        background-color: hsl(0, 85%, 68%);
+        padding: 5px;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .cards-estudios img{
+        width: 12.82em;
+        height: 12em;
+        margin-bottom: 12px;
+        border-radius: 10px;
+    }
+
+    .thead .desafiolatam {
+        background-color: #000000;
+    }
 
 }
 
@@ -609,5 +655,72 @@
         font-size: 25px;
         color: hsla(0, 0%, 0%, 0.8);
         box-shadow: 0px 0px 5px 5px #fff;
+    }
+
+        /*inicio de Css para formación-html versión mobile*/
+
+    .cards {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .cards-estudios {
+        transition: box-shadow 0.3s ease;
+        border: 0.5px solid hsla(0, 0%, 50%, 0.15);
+        background-color: #fff;
+        cursor: pointer;
+        width: 18.2em;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .cards-estudios:hover {
+        box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    }
+
+
+    .cards-estudios h5{
+        background-color: hsla(201, 100%, 35%, 0.5);
+        margin: 1rem;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    .cards-estudios p {
+        margin: 1rem;
+        text-align: justify;
+    }
+
+    article .text-tfooter {
+        background-color: hsla(106, 75%, 66%, 0.938);
+        padding: 5px;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    article .text-tfooter1 {
+        background-color: hsl(0, 85%, 68%);
+        padding: 5px;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .cards-estudios img{
+        width: 18em;
+        height: 12em;
+        margin-bottom: 12px;
+        border-radius: 10px;
+    }
+
+    .thead .desafiolatam {
+        background-color: #000000;
     }
 }
