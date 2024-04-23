@@ -352,6 +352,33 @@
         background-color: #000000;
     }
 
+    .title-experiencia {
+        text-align: center;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .cards-estudios .tbody a{
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+    }
+    
+    .cards-estudios .tbody{
+        text-align: center;
+    }
+    
+    .theadbio {
+        background-color: #000000;
+        border-radius: 10px;
+    }
+    
+    .theadbio img{
+        width: 18em;
+        height: 12em;
+        margin-bottom: 12px;
+    }
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 1500px) {
@@ -735,4 +762,33 @@
 .card-img-top {
     height: 25em;
 }
+
+.title-experiencia {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
 }
+
+.cards-estudios .tbody a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.cards-estudios .tbody{
+    text-align: center;
+}
+
+.theadbio {
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+.theadbio img{
+    width: 18em;
+    height: 12em;
+    margin-bottom: 12px;
+}
+
+}
+
