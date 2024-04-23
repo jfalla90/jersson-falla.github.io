@@ -729,4 +729,10 @@
     .thead .desafiolatam {
         background-color: #000000;
     }
+
+    /*iniciando personalizacion versión desktop - page experiencia.html*/
+
+.card-img-top {
+    height: 25em;
+}
 }
